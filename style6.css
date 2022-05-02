@@ -1,0 +1,33 @@
+body{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 182, 36);
+}
+
+.formulario,.resultado1,.resultado2{
+    width: 25vw;
+    height: 30vh;
+    padding: 1vh;
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: orange;
+}
+
+label,input,button,textarea{
+    padding: 10px;
+    margin: 10px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
